@@ -1,0 +1,57 @@
+#navigation
+{
+	position: absolute;
+	top: 26px;
+	left: 0px;
+	width: 240px;
+	bottom: 0px;
+	border-right: 2px solid #98BF21;
+	background-color: #C6C6C6;
+	color: #404040;
+	overflow-y: auto;
+}
+
+#page
+{
+	position: absolute;
+	top: 26px;
+	left: 242px;
+	right: 0%;
+	bottom: 0px;
+	background-color: #404040;
+	overflow-y: auto;
+}
+
+#topnav
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 24px;
+	right: 0px;
+	background-color: #222222;
+	border-bottom: 2px solid #98BF21;
+}
+
+#topnav div
+{
+	text-align: center;
+	font-size: 20px;
+	color: #CCCCCC;
+	width: 120px;
+	min-width: 120px;
+	height: 24px;
+	padding: 0px;
+	border: 0px;
+}
+
+#topnav div:hover
+{
+	color: #45bbc6;
+	background-color: #3F3F3F;
+}
+
+#topnav #login_btn
+{
+	right: 0px;
+}
