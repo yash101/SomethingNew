@@ -12,12 +12,14 @@
 		<script type="text/javascript" src="Scripts/login.js"></script>
 	</head>
 	<body>
-		<div id="page">
-		</div>
 		<div id="navigation">
 		</div>
 		<div id="topnav">
 			<div id="login">Log In!</div>
+		</div>
+		<div id="page">
+		</div>
+		<div id="buttons">
 		</div>
 	</body>
 </html>

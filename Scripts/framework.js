@@ -81,6 +81,14 @@ ConfigurationParser.prototype.getMap = function()
 	return this.map;
 };
 
+var WebConfiguration = new ConfigurationParser("");
+
 $(document).ready(function()
 {
+	//Download the web configuration data
+	ajax.get("webconfiguration.cfg", function(x)
+	{
+		WebConfiguration.setFile(x);
+		WebConfiguration.refresh();
+	});
 });
