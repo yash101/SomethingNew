@@ -1,0 +1,1 @@
+ERR0 => database connection error => "Error! Unable to connect to MySQL Database!"
