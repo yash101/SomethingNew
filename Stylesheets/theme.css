@@ -2,3 +2,8 @@
 {
 	cursor: url("../Images/Cursors/cursor.png"),auto;
 }
+
+.CenteredText
+{
+	text-align: center;
+}
