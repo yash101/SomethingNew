@@ -1,0 +1,62 @@
+<style type="text/css">
+#LoginPageMain #overlay
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: black;
+	opacity: 0.6;
+}
+
+#LoginPageMain #login_form
+{
+	position: fixed;
+	left: 20%;
+	right: 20%;
+	top: 10%;
+	bottom: 10%;
+	background-color: #C6C6C6;
+	border-radius: 64px;
+	padding-left: 2px;
+}
+
+#LoginPageMain #login_form input
+{
+	background-color: white;
+	border: 2px solid #404040;
+	border-radius: 4px;
+	font-size: 32px;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+#LoginPageMain #login_form input:hover, #LoginPageMain #login_form input:active
+{
+	background-color: rgb(24, 81, 110);
+	color: white;
+}
+
+#LoginPageMain #login_form #Form
+{
+	padding: 16px;
+}
+</style>
+<div id="LoginPageMain">
+	<div id="overlay"></div>
+	<div id="login_form">
+		<h1 class="CenteredText">Log In!</h1>
+		<hr />
+		<div id="Form">
+			<form action="javascript:void(null);">
+				<input type="text" id="Username" placeholder="Username" required="true">
+				<input type="password" id="Password" placeholder="Password" required="true">
+				<input type="password" id="PasswordRepeat" placeholder="Repeat Password" required="true">
+				<input type="submit" value="Register">
+			</form>
+			<hr />
+		</div>
+	</div>
+</div>
